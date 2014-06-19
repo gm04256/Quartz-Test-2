@@ -21,6 +21,8 @@
 		FC43F6F11952972500BAD93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F6D31952972400BAD93B /* UIKit.framework */; };
 		FC43F6F91952972500BAD93B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC43F6F71952972500BAD93B /* InfoPlist.strings */; };
 		FC43F6FB1952972500BAD93B /* Quartz_Test_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F6FA1952972500BAD93B /* Quartz_Test_2Tests.m */; };
+		FC43F7061952988900BAD93B /* BGMView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F7051952988900BAD93B /* BGMView.m */; };
+		FC43F70919529CA400BAD93B /* BGMStar.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F70819529CA400BAD93B /* BGMStar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,11 @@
 		FC43F6F61952972500BAD93B /* Quartz Test 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quartz Test 2Tests-Info.plist"; sourceTree = "<group>"; };
 		FC43F6F81952972500BAD93B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC43F6FA1952972500BAD93B /* Quartz_Test_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz_Test_2Tests.m; sourceTree = "<group>"; };
+		FC43F7041952988900BAD93B /* BGMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMView.h; sourceTree = "<group>"; };
+		FC43F7051952988900BAD93B /* BGMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMView.m; sourceTree = "<group>"; };
+		FC43F70719529CA400BAD93B /* BGMStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMStar.h; sourceTree = "<group>"; };
+		FC43F70819529CA400BAD93B /* BGMStar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMStar.m; sourceTree = "<group>"; };
+		FC43F70A1952BCB300BAD93B /* BGMConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +126,11 @@
 				FC43F6E51952972400BAD93B /* BGMViewController.m */,
 				FC43F6E71952972400BAD93B /* Images.xcassets */,
 				FC43F6D61952972400BAD93B /* Supporting Files */,
+				FC43F7041952988900BAD93B /* BGMView.h */,
+				FC43F7051952988900BAD93B /* BGMView.m */,
+				FC43F70719529CA400BAD93B /* BGMStar.h */,
+				FC43F70819529CA400BAD93B /* BGMStar.m */,
+				FC43F70A1952BCB300BAD93B /* BGMConstants.h */,
 			);
 			path = "Quartz Test 2";
 			sourceTree = "<group>";
@@ -251,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC43F6DC1952972400BAD93B /* main.m in Sources */,
+				FC43F7061952988900BAD93B /* BGMView.m in Sources */,
+				FC43F70919529CA400BAD93B /* BGMStar.m in Sources */,
 				FC43F6E01952972400BAD93B /* BGMAppDelegate.m in Sources */,
 				FC43F6E61952972400BAD93B /* BGMViewController.m in Sources */,
 			);
